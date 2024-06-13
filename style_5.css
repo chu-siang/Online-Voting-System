@@ -1,0 +1,147 @@
+/* for home*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header{
+    background-color:rgb(79, 106, 143);
+    margin-top: 2%;
+}
+
+body{
+    background-color:rgb(79, 106, 143);
+    text-align: center;
+}
+footer{
+    background-color: #88a2bc;
+    margin: 0.5% 7%;
+    padding: 0.8%;
+}
+
+.container {
+    display: flex; 
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 8%;
+
+
+}
+/*left*/
+.left{
+    flex: 3.5;
+    text-align: left;
+
+}
+.highlight {
+    font-size: 70px;
+    color: rgba(217, 148, 119); /* 设置数字的颜色 */
+    font-weight: bold; /* 使数字加粗 */
+}
+/*right*/
+.right{
+    flex: 6.5;
+    margin-top: 5%;;
+    button{
+        margin: 10px;
+    }
+}
+form{
+    display: flex;
+    text-align:center;
+    color:rgb(251, 244, 227);
+
+    h4{
+        font-size: 35px;
+        font-style: italic;
+    }
+}
+input{
+    font-size: 20px;
+    height: 42px;
+    margin:0px 5% 10px;
+    padding-left: 10px;
+    background-color:rgb(251, 244, 227);
+    border: 0px;
+    border-radius: 20px;
+
+}
+button{
+    font-size: 25px;
+    background-color:rgb(251, 244, 227); 
+    color:rgb(79, 106, 143);
+    padding: 10px 18px 10px;
+    border-radius: 20px;
+    border: none;
+}
+button.enabled {
+    /* 可按時的樣式 */
+    background-color: rgba(217, 148, 119);
+    color: white;
+}
+
+button.disabled {
+    /* 不可按时的样式 */
+    font-style: oblique;
+    background-color: rgb(79, 106, 143);
+    color: black;
+    border: 5px solid rgba(217, 148, 119); /* 指定边框宽度和颜色 */
+    border-radius: 20px;
+    cursor: not-allowed; /* 添加禁用鼠标指针 */
+}
+
+img{
+    display: block;
+    width: 200px;
+    height: auto;   
+}
+
+.ca {
+    font-size: 20px;
+    display: inline-block; 
+    margin: 25px auto;
+    background-color: rgba(217, 148, 119); 
+    color: rgb(255, 255, 255);
+    padding: 10px 18px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.ca:hover {
+	text-decoration: underline;
+    cursor: pointer;
+} 
+
+h2{
+    font-size: 50px;
+    color:rgba(217, 148, 119);
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+}
+.slide-in-bottom {
+    
+    /* -webkit-animation: slide-in-bottom 1.5s  forwards; */
+            animation: slide-in-bottom 1.5s  forwards;
+}
+
+@keyframes slide-in-bottom {
+    0% {
+        transform: translateY(1000px);
+                transform: translateY(1000px);
+        opacity: 0;
+        
+    }
+    100% {
+        transform: translateY(0);
+                transform: translateY(0);
+        opacity: 1;
+       
+    }
+}

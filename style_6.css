@@ -1,0 +1,143 @@
+/* for invocing*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+body{
+    background-color:rgb(79, 106, 143);
+    margin-top: 1%;
+    text-align: center;
+}
+
+.container {
+    display: flex; 
+    text-align: center;
+    margin: 1% 5% 0;
+}
+
+.left{
+    flex: 5.5;
+    margin: 1%;
+    padding-bottom: 2%;
+    background-color:rgb(251, 244, 227);
+    border-radius: 20px;
+}
+.right{
+    flex: 4.5;
+    margin: 1%;
+    padding: 2%;
+    background-color: rgb(251, 244, 227);
+    border-radius: 20px;
+}
+.namel{
+    display: inline-flex;
+}
+
+h2{
+    font-size: 50px;
+    color:rgba(217, 148, 119);
+    text-align: center;
+}
+
+h3{
+    padding: 20px 0px 5px 0px;
+    font-size: 40px;
+    color:rgba(217, 148, 119);
+}
+h4{
+    font-size: 40px;
+    color:rgb(79, 106, 143);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+h5{
+    text-align: center;
+    font-size: 40px;
+    /*color:rgb(79, 106, 143);
+    border: 8px double rgb(136, 162, 188); /* 边框样式 */
+    color:rgb(251, 244, 227);
+
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+}
+h6{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-style: italic;
+    font-size: 40px;
+    color:rgb(136, 162, 188);
+}
+h7{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 40px;
+    color:rgb(218, 113, 68);
+}
+
+
+.highlight {
+    font-size: 70px;
+    color: rgba(217, 148, 119); /* 设置数字的颜色 */
+    font-weight: bold; /* 使数字加粗 */
+}
+
+button{
+    font-size: 25px;
+    background-color:rgb(251, 244, 227); 
+    color:rgb(79, 106, 143);
+    padding: 10px 18px 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+img {
+    display: block; /* 将图片设置为块级元素 */
+    margin: 0 auto; /* 将左右边距设为 auto，使其居中 */
+    width: 200px;
+    height: auto;
+}
+
+.ca {
+    font-size: 20px;
+    display: inline-block; 
+    margin: 25px auto;
+    background-color: rgba(217, 148, 119); 
+    color: rgb(255, 255, 255);
+    padding: 10px 18px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.ca:hover {
+	text-decoration: underline;
+    cursor: pointer;
+} 
+
+
+
+.slide-in-bottom {
+    
+    /* -webkit-animation: slide-in-bottom 1.5s  forwards; */
+            animation: slide-in-bottom 1.5s  forwards;
+}
+
+@keyframes slide-in-bottom {
+    0% {
+        transform: translateY(1000px);
+                transform: translateY(1000px);
+        opacity: 0;
+        
+    }
+    100% {
+        transform: translateY(0);
+                transform: translateY(0);
+        opacity: 1;
+       
+    }
+}

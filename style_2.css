@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    height: 100%;
+    margin-top: 5%;
+    background-color:rgb(79, 106, 143);
+    text-align: center;
+}
+
+form{
+    margin-top: 2%;
+    color:rgb(251, 255, 255);
+    font-size: 20px;
+}
+input{
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+    font-weight: 60px;
+    margin: 10px auto;
+    background-color:rgb(251, 244, 227);
+    border: 0px;
+}
+h1{
+    font-size: 200px;
+    color:rgb(79, 106, 143);
+    border: 0px;
+}
+h2{
+    font-size: 50px;
+    color:rgba(217, 148, 119);
+}
+a{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* 新增success 跟 error的訊息框 */
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 20px auto;
+    -webkit-animation: error 0.5s  forwards;
+    animation: error 0.5s  forwards;
+ }
+ 
+ .success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+    -webkit-animation: success 0.5s  forwards;
+    animation: success 0.5s  forwards;
+ }
+ /* 以下為新增鼠標圖示 當滑鼠移到login register上會修改樣式 */
+.ca {
+    font-size: 20px;
+    display: inline-block; 
+    margin: 10px auto;
+    background-color: rgba(217, 148, 119); 
+    color: rgb(255, 255, 255);
+    padding: 8px 16px 8px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-animation: ca 1.5s  forwards;
+    animation: ca 1.5s  forwards;
+}
+.ca:hover {
+	text-decoration: underline;
+    cursor: pointer;
+} 
+/* 到這邊都是 */
+
+/* 以下動畫 */
+
+@keyframes ca {
+    0% {
+        transform: translateY(1000px);
+                transform: translateY(1000px);
+        opacity: 0;
+        
+    }
+    100% {
+        transform: translateY(0);
+                transform: translateY(0);
+        opacity: 1;
+       
+    }
+}
+@keyframes error {
+    0% {
+        transform: translateY(1000px);
+                transform: translateY(1000px);
+        opacity: 0;
+        
+    }
+    100% {
+        transform: translateY(0);
+                transform: translateY(0);
+        opacity: 1;
+       
+    }
+}
+@keyframes success {
+    0% {
+        transform: translateY(1000px);
+                transform: translateY(1000px);
+        opacity: 0;
+        
+    }
+    100% {
+        transform: translateY(0);
+                transform: translateY(0);
+        opacity: 1;
+       
+    }
+}
+.slide-in-bottom {
+	-webkit-animation: slide-in-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
