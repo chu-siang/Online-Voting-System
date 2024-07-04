@@ -44,7 +44,7 @@ This project is an online voting system developed using **PHP** and **MySQL**. I
   
 - **HTML, CSS, JavaScript:** 
   Front-end technologies for building the user interface.
-  
+
 ## Future Plans
 
 - Implement more voting types, such as multi-choice and ranking.
@@ -55,3 +55,4 @@ This project is an online voting system developed using **PHP** and **MySQL**. I
 ## Contribution
 
 If you are interested in this project, feel free to provide feedback and suggestions, or directly contribute to the development. Please follow the standard GitHub workflow to submit your contributions.
+![demo](presentation.pdf)
