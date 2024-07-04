@@ -56,4 +56,4 @@ This project is an online voting system developed using **PHP** and **MySQL**. I
 
 If you are interested in this project, feel free to provide feedback and suggestions, or directly contribute to the development. Please follow the standard GitHub workflow to submit your contributions.
 
-## [demo](presentation.pdf)
+## [Demo](presentation.pdf)
